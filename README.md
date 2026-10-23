@@ -6,7 +6,7 @@ Sistema web para organização de tarefas acadêmicas
 
 
 ## Tecnologias utilizadas
-
+HTML, JavaScript e CSS
 
 
 ## Como instalar e executar
@@ -15,9 +15,5 @@ Sistema web para organização de tarefas acadêmicas
 ## Funcionalidades implementadas
 
 
-## Capturas de tela
-
-
-## Captura de tela do sistema
-<img width="1598" height="763" alt="Captura de tela 2026-10-23 085620" src="https://github.com/user-attachments/assets/d4ec07f2-3c33-4ebb-a498-15ac62bca2d0" />
-
+## Captura de tela do sistema 
+<img width="1220" height="755" alt="Captura de tela 2026-10-23 093603" src="https://github.com/user-attachments/assets/9b0ceb3b-0b59-4132-b626-41d0bf10d55e" />
