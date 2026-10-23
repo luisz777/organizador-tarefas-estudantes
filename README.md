@@ -5,7 +5,7 @@ Sistema web para organização de tarefas acadêmicas
 ## Problema e solução
 Problema: Muitos estudantes têm dificuldade para organizar suas tarefas acadêmicas, lembrar os prazos de entrega e definir quais atividades precisam ser feitas primeiro. Isso pode causar atrasos, acúmulo de trabalhos e falta de organização na rotina de estudos.
 
-Solução: O projeto Organizador de Tarefas para Estudantes foi desenvolvido para ajudar os alunos a gerenciar suas atividades de forma simples e prática. O sistema permite cadastrar tarefas, informar a matéria e a data de entrega, definir prioridades, acompanhar atividades pendentes ou atrasadas e marcar tarefas como concluídas. Além disso, os dados ficam salvos no navegador, permitindo que o estudante consulte suas tarefas mesmo depois de fechar a página.
+Solução: O projeto #Organizador de Tarefas para Estudantes# foi desenvolvido para ajudar os alunos a gerenciar suas atividades de forma simples e prática. O sistema permite cadastrar tarefas, informar a matéria e a data de entrega, definir prioridades, acompanhar atividades pendentes ou atrasadas e marcar tarefas como concluídas. Além disso, os dados ficam salvos no navegador, permitindo que o estudante consulte suas tarefas mesmo depois de fechar a página.
 
 ## Tecnologias utilizadas
 HTML, JavaScript e CSS
