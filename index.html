@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Organizador de Tarefas para Estudantes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>📚 Organizador de Tarefas</h1>
+        <p class="sub">Controle trabalhos, provas e atividades em um só lugar.</p>
+      </div>
+      <button id="theme" type="button" aria-label="Alternar tema">🌓</button>
+    </header>
 
+    <div class="stats">
+      <div class="stat"><b id="sTotal">0</b><span>Total</span></div>
+      <div class="stat"><b id="sPend">0</b><span>Pendentes</span></div>
+      <div class="stat"><b id="sLate">0</b><span>Atrasadas</span></div>
+    </div>
+
+    <div class="card">
+      <form id="f">
+        <div class="full">
+          <label for="t">Tarefa</label>
+          <input id="t" required maxlength="120"
+            placeholder="Ex.: Entregar relatório de Banco de Dados">
+        </div>
+        <div>
+          <label for="d">Disciplina</label>
+          <input id="d" maxlength="40"
+            placeholder="Ex.: Engenharia de Software">
+        </div>
+        <div>
+          <label for="due">Prazo</label>
+          <input id="due" type="date">
+        </div>
+        <div>
+          <label for="p">Prioridade</label>
+          <select id="p">
+            <option value="alta">Alta</option>
+            <option value="media" selected>Média</option>
+            <option value="baixa">Baixa</option>
+          </select>
+        </div>
+        <div class="submit-wrap">
+          <button class="primary" type="submit">Adicionar tarefa</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="card">
+      <div class="filters">
+        <button type="button" data-s="todas" class="on">Todas</button>
+        <button type="button" data-s="pendentes">Pendentes</button>
+        <button type="button" data-s="concluidas">Concluídas</button>
+        <select id="fd" aria-label="Filtrar por disciplina">
+          <option value="">Todas as disciplinas</option>
+        </select>
+      </div>
+      <ul id="list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
