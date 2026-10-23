@@ -21,3 +21,6 @@ Sistema web para organização de tarefas acadêmicas
 ## Capturas de tela
 
 
+## Captura de tela do sistema
+
+![Tela principal do Organizador de Tarefas](tela-principal.png)
